@@ -1,0 +1,316 @@
+body {
+  background-color: #232b38!important;
+}
+.ticket-buy-wrapper {
+  max-width: 728px;
+  margin: 0 auto;
+  background: #181C23;
+    padding: 15px;
+}
+.fly-list-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 15px;
+}
+.result-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 15px;
+}
+.result-wrapper h5 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 40px;
+}
+.result-wrapper svg {
+  color: #32CD32;
+  margin-right: 10px;
+}
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.result-container p {
+  color: #668cff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.fly-time-box {
+  display: flex;
+  flex-direction: column;
+}
+.fly-time-box span:first-child {
+  font-weight: 600;
+}
+.fly-list-container {
+  border: 1px solid #000000;
+}
+.fly-list-container-filter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #181C23;
+  color: #ffffff;
+}
+.fly-list-container-filter .btn-light {
+  background-color: transparent;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.fly-list-container-filter span {
+  margin-right: 10px;
+  align-items: center;
+  display: flex;
+}
+.fly-list-container-box {
+  padding: 20px;
+}
+.fly-detail {
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fly-economy {
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.fly-economy span {
+  font-size: 14px;
+}
+.fly-business span {
+  font-size: 14px;
+}
+.fly-business {
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.fly-economy.active .triangle-up {
+  display: block;
+}
+.promotion-code {
+  display: flex;
+  margin: 20px 0px;
+}
+.fly-detail-card-bot button.disabled {
+  background-color: #d9d9d9;
+  border: none;
+}
+.promotion-code span {
+  font-weight: 600;
+  margin-right: 10px;
+}
+.ticket-buy-button svg {
+  margin: 0 auto;
+}
+.triangle-up {
+	width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -11px;
+  background-color: #fff;
+  left: 0px;
+  z-index: 0;
+  display: none;
+}
+.fly-list-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+.fly-detail-big {
+  display: none;
+}
+.fly-detail-big.active {
+  display: block;
+}
+.fly-detail-big-box {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  padding: 20px;
+  margin-top: 10px!important;
+  margin-bottom: 10px;
+  display: flex;
+  z-index: 9;
+}
+.form-check-input {
+  margin-right: 5px;
+}
+.fly-detail-card {
+  margin-right: 10px;
+  border: 1px solid #d1d1d1;
+  position: relative;
+  height: 100%;
+  min-height: 300px;
+}
+.fly-detail-card-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F0F0F0;
+  padding: 10px;
+}
+.fly-detail-card-top p {
+  font-weight: 700;
+}
+.fly-detail-card-mid p {
+  border-bottom: 1px solid #d1d1d1;
+  padding: 7px 7px;
+  margin-bottom: 0px;
+}
+.fly-detail-card-bot {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.fly-detail-card-bot button {
+  width: 100%;
+  border-radius: 0px;
+}
+.fly-detail-card-top p {
+  font-size: 20px;
+  display: flex;
+}
+.fly-detail-card-top p span {
+  font-size: 14px;
+  font-weight: 500;
+
+}
+.fly-detail .col-md-9 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.fly-time-bg {
+  height: 2px;
+  background-color: #000000;
+  width: 100%;
+  position: absolute;
+  max-width: 160px;
+  left: 80px;
+  top: 30px;
+}
+.App-header {
+  background-color: #232b38;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+.ticket-buy-button {
+  background-color: #E81932;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.react-datepicker-wrapper input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.react-datepicker__view-calendar-icon input {
+  padding: 10px 10px 11px 25px!important;
+}
+.react-datepicker-popper {
+  top: 10px;
+}
+.ticket-buy-traveler {
+  background-color: #2b3947;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+.form-checkin-input {
+  position: relative;
+}
+.form-checkin-input svg {
+  bottom: 18px;
+  position: absolute;
+  left: 18px;
+}
+.form-checkin-input input {
+  padding: 0.675rem .75rem 0.675rem 1.75rem;
+}
+.date-input {
+  position: absolute;
+  top: 10px;
+  z-index: 9;
+  left: 18px;
+}
+.plane-list {
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.plane-list span {
+  padding: 0px 5px;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+.traveler-list {
+  width: 300px;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  top: 45px;
+  color: #000000;
+}
+.traveler-list-container {
+  display: flex;
+  margin: 10px 0px;
+  justify-content: space-between;
+}
+.traveler-list-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.traveler-list-bottom-count span {
+  margin: 0 10px;
+}
+@media only screen and (max-width: 767px) {
+  .ticket-buy-button {
+    padding: 20px;
+    margin-top: 10px;
+  }
+  #checkin_input, #checkout_input {
+    margin-bottom: 10px;
+  }
+}

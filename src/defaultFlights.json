@@ -1,0 +1,76 @@
+{
+    "flights": [
+        {
+            "id": 1,
+            "originAirport": {
+                "name": "Istanbul Airport"
+            },
+            "destinationAirport": {
+                "name": "Antalya Airport"
+            }
+        },
+        {
+            "id": 2,
+            "originAirport": {
+                "name": "Tekirdağ Airport"
+            },
+            "destinationAirport": {
+                "name": "Çorum Airport"
+            }
+        },
+        {
+            "id": 3,
+            "originAirport": {
+                "name": "Ankara Airport"
+            },
+            "destinationAirport": {
+                "name": "Manisa Airport"
+            }
+        },
+        {
+            "id": 4,
+            "originAirport": {
+                "name": "Bursa Airport"
+            },
+            "destinationAirport": {
+                "name": "Rize Airport"
+            }
+        },
+        {
+            "id": 5,
+            "originAirport": {
+                "name": "Konya Airport"
+            },
+            "destinationAirport": {
+                "name": "Afyon Airport"
+            }
+        },
+        {
+            "id": 6,
+            "originAirport": {
+                "name": "Tokat Airport"
+            },
+            "destinationAirport": {
+                "name": "Sivas Airport"
+            }
+        },
+        {
+            "id": 7,
+            "originAirport": {
+                "name": "Bodrum Airport"
+            },
+            "destinationAirport": {
+                "name": "İzmir Airport"
+            }
+        },
+        {
+            "id": 8,
+            "originAirport": {
+                "name": "Diyarbakır Airport"
+            },
+            "destinationAirport": {
+                "name": "Mersin Airport"
+            }
+        }
+    ]
+}
